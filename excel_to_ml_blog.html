@@ -1,0 +1,237 @@
+<DOCTYPE! html>
+<html>
+<head>
+    <title>Ashutosh Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+
+    /*======================================
+    //--//-->   ABOUT
+    ======================================*/
+
+    .about-mf .box-shadow-full {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+
+    .about-mf .about-img {
+      margin-bottom: 2rem;
+    }
+
+    .about-mf .about-img img {
+      margin-left: 10px;
+    }
+
+
+    .skill-mf .progress {
+      /* background-color: #cde1f8; */
+      margin: .5rem 0 1.2rem 0;
+      border-radius: 0;
+      height: .7rem;
+    }
+
+    .skill-mf .progress .progress-bar {
+      height: .7rem;
+      background-color: #ffbd39;
+    }
+
+
+    /* Animation styles */
+    #typing-animation {
+      position: relative;
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typing 3s steps(20, end) infinite;
+    }
+
+    #typing-animation:before {
+      content: "";
+      /* position: absolute; */
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: #ccc;
+      animation: typing-cursor 0.5s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes typing-cursor {
+      from {
+        width: 5px;
+      }
+      to {
+        width: 0;
+      }
+    }
+
+
+    /* project image zoom effect */
+
+    .zoom-effect {
+      overflow: hidden;
+      transition: transform 0.3s ease-out;
+    }
+
+    .zoom-effect:hover {
+      transform: scale(1.1);
+    }
+    .bloglist{
+        display: block;
+        margin:20px;
+        background-color:#050505;
+        padding:20px;
+        border-radius: 15px;
+    }
+    
+    .blogimg {
+    margin-top: 60px;
+    height: 300px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 40px;
+    border: 2px solid #312929;
+    background-image: url('blog_images/excel_to_ml_image.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+    html {
+  scroll-behavior: smooth;
+    }
+    .blogimg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 90%;
+        
+    }
+    .blogcont{
+        padding:15px;
+        margin-top:4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        
+    }
+    /*
+    .blogimg:hover {
+  box-shadow: 0px 10px 15px -4px rgba(255, 189, 57, 0.6);
+  border-color: #ffbd39;
+  transition: all 0.5s ease-in-out;
+}*/
+    .hovlink a{
+      color:#e6edaf;
+      display: inline-block;
+      transition: transform 0.3s ease-in-out;
+    }
+    .hovlink a:hover {
+      transform: scale(1.1);
+    }
+    #otherbloghead{
+      text-align: left;
+    }
+    .bloglist:hover {
+      box-shadow: 0 5px 10px rgba(25, 26, 19, 0.2); /* Shadow */
+      transform: translateY(-5px);                /* Thoda upar */
+      transition: all 0.2s ease-in-out;           /* Smooth animation */
+    }
+
+
+</style>
+<body>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Ashutosh</a>
+          <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+          </button>
+
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav nav ml-auto">
+              <li class="nav-item"><a href="index.html" class="nav-link revik"><span>Home</span></a></li>
+              <!-- <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+              <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li> -->
+              <!-- <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div >
+        <div class="blogimg">
+            
+        </div>
+        </div>
+        <div class="blogcont text">
+            <h1>How I Went from Excel Sheets to Machine Learning Models</h1>
+            <p>Back in the day I thought Excel was everything. I had multiple spreadsheets, pivot tables, VLOOKUPs, macros and all that. I was comfortable. But when I heard about machine learning models doing predictions and insights on data, I felt a mix of excitement and “can I do this?”-fear. The shift from Excel to ML was not instant, and it’s not perfect even now, but the journey taught me a lot.</p>
+            <p>The first step was accepting the limits of Excel. Spreadsheets are fine when you have thousands of rows, but when you hit tens of thousands, or when you want to automate tasks, connect to databases or build a prediction model, it gets messy. I realized I needed a tool that could scale, that could run the same steps reliably, and handle data pipelines. That’s when I picked up Python and its libraries like pandas, numpy, scikit-learn. I started by exporting my Excel data into .csv files, reading them in pandas, doing the same cleaning I did in Excel but in code: dropping nulls, filling values, converting dates, merging tables.</p>
+            <p>Once I was comfortable cleaning and transforming data in Python, I moved to building a basic machine learning model. My first model was simple: I took my cleaned data, split into train and test sets, used a logistic regression or decision tree (whichever made sense), trained it, predicted the outcome, evaluated accuracy. It felt magical the first time I saw the model giving a prediction rather than just a number in a cell. I built code that took what I used to do manually in Excel like calculate metrics, filter groups, chart results and automated it so every time new data arrived I could run the whole thing and get results in minutes instead of hours.</p>
+            <p>During this transition I learned that the mindset changes. In Excel I thought row by row, sheet by sheet. In machine learning I think in pipelines: source data → clean → transform → feature engineering → model → evaluate → deploy. I learned concepts like overfitting, regularization, train/test split, cross-validation. I saw that it’s not just about getting a result, but getting a result that generalizes to new data, and saying “yes this model works” not just “it worked once for this file”.</p>
+            <p>Today, when I build a project I almost always start with “what did I used to do in Excel?” and ask “how can I code this, make it automatic, scale it, wrap it in a pipeline or notebook, then experiment models”. And yes, I still open Excel for small tasks, but I no longer live there. I moved to code-first, to workflows, to machine learning. So if you are stuck in spreadsheets and wondering if you can make the jump, the answer is yes. You already have the foundations: cleaning data, logic, understanding metrics. Just take one code step, one project step, build a model, and you’ll see the difference.</p>
+            
+        </div>
+        <div class="bloglist text hovlink" style="padding-left: 5%;">
+            <h3 id="otherbloghead">Explore More Works</h3>
+            <ul>
+                <li><a href="machine_failure_project.html">Project - Tata Steel Machine Failure Prediction</a></li>
+                <li><a href="glasdoor_project.html">Project - Glassdoor Jobs Data Analysis & Salary Prediction</a></li>
+                <li><a href="bangalore_house.html">Project - Bangalore House Price Prediction Project</a></li>
+                <li><a href="movie_recommender.html">Project - Movie Recommendation System using Content-Based Filtering</a></li>
+                <li><a href="super_store.html">Project - Super Store Sales Dashboard – Power BI</a></li>
+                <li><a href="logistic_regression_blog.html">Blog - The Truth Behind Logistic Regression’s Name</a></li>
+                <li><a href="pipeline_blog.html">Blog - Why Every Data Project Needs Pipelines</a></li>
+                <li><a href="excel_to_ml_blog.html">Blog - How I Went from Excel Sheets to Machine Learning Models</a></li>
+                <li><a href="AI_in_ecommerce.html">Blog - How AI is Revolutionizing E-Commerce Decision Making</a></li>
+                <li><a href="AI_jobs_blog.html">Blog - How ChatGPT & Generative AI Are Reshaping Jobs in 2025</a></li>
+                <li><a href="index.html">Back to home</a></li>
+            </ul>
+        </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+
+</body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+    
+</html>
